@@ -103,7 +103,6 @@ int main()
 
 	stack_a = init_stack(40);
 
-	push(&stack_a, lstnew(100));
 	push(&stack_a, lstnew(30));
 	push(&stack_a, lstnew(20));
 	push(&stack_a, lstnew(10));

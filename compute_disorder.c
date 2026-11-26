@@ -6,10 +6,10 @@ double	compute_disorder(t_stack *stack)
 	double	total_pairs;
 	double	mistakes;
 
+	if (!stack || !(stack->next))
+		return (0);
 	mistakes = 0;
 	total_pairs = 0;
-	if (!stack)
-		return (0);
 	while (stack->next)
 	{
 		after = stack->next;
