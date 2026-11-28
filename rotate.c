@@ -17,6 +17,16 @@ void	rotate(t_stack **stack)
 	}
 }
 
+void	rotate_a(t_stack **stack_a)
+{
+	rotate(stack_a);
+}
+
+void	rotate_b(t_stack **stack_b)
+{
+	rotate(stack_b);
+}
+
 void	rotate_rotate(t_stack **stack_a, t_stack **stack_b)
 {
 	rotate(stack_a);

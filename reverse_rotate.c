@@ -19,6 +19,16 @@ void	reverse_rotate(t_stack **stack)
 	}
 }
 
+void	reverse_rotate_a(t_stack **stack_a)
+{
+	reverse_rotate(stack_a);
+}
+
+void	reverse_rotate_b(t_stack **stack_b)
+{
+	reverse_rotate(stack_b);
+}
+
 void	reverse_rotate_rotate(t_stack **stack_a, t_stack **stack_b)
 {
 	reverse_rotate(stack_a);
